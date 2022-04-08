@@ -1,3 +1,6 @@
+    header{
+      font-family: Hurricane;
+    }
     h1 {
       color: Indianred;
       border-style: groove;
@@ -5,9 +8,8 @@
       border-color: black;
       text-align: center;
       background-color: purple;
-      font-style: italic;
       font-size: 35px
-    }
+      }
     h2 {
       color: darkturquoise;
       border-style: dashed;
@@ -16,7 +18,7 @@
       text-align: center;
       background-color: #426985;
       font-style: oblique;
-    }
+      }
     h3 {
       color: FireBrick;
       border-style: double;
@@ -32,7 +34,7 @@
       border-color: black;
       text-align: center;
       background-color: #8ccff4;
-    }
+      }
     body {
       background-color: DimGrey;
       border-style: solid;
@@ -51,4 +53,9 @@
       border-width: thick;
       border-color: pink;
       text-align: center;
+      font-family: Hurricane;
     }
+    i{
+      color: black;
+    }
+    
