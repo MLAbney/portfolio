@@ -58,4 +58,18 @@
     i{
       color: black;
     }
-    
+    .box{
+      border: 30px solid purple;
+      background: yellow;
+      font-family: Hurricane, cursive;
+      font-size: 30px;
+    }
+    .container{
+      border: 30px solid purple;
+      background: yellow;
+      font-family: Hurricane, cursive;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      }
