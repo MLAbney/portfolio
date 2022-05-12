@@ -1,7 +1,7 @@
-    header{
+header{
       font-family: Hurricane;
-    }
-    h1 {
+}
+h1 {
       color: Indianred;
       border-style: groove;
       border-width:thick;
@@ -9,8 +9,8 @@
       text-align: center;
       background-color: purple;
       font-size: 35px
-      }
-    h2 {
+}
+h2 {
       color: darkturquoise;
       border-style: dashed;
       border-width:medium;
@@ -18,53 +18,53 @@
       text-align: center;
       background-color: #426985;
       font-style: oblique;
-      }
-    h3 {
+}
+h3 {
       color: FireBrick;
       border-style: double;
       border-width: 7px;
       border-color: GoldenRod;
       text-align: center;
       background-color: black;
-    }
-    p {
+}
+p {
       color: #d85f25;
       border-style: double;
       border-width: 10px;
       border-color: black;
       text-align: center;
       background-color: #8ccff4;
-      }
-    body {
+}
+body {
       background-color: DimGrey;
       border-style: solid;
       border-width: thick;
       border-color: Green;
-      }
-    a:hover {
+}
+a:hover {
       background-color: Yellow;
       border-style: double;
       border-width: 10px;
       border-color: black;
-    }
-    footer{
+}
+footer{
       color: pink;
       border-style: ridge;
       border-width: thick;
       border-color: pink;
       text-align: center;
       font-family: Hurricane;
-    }
-    i{
+}
+i{
       color: black;
-    }
-    .box{
+}
+.box{
       border: 30px solid purple;
       background: yellow;
       font-family: Hurricane, cursive;
       font-size: 30px;
-    }
-    .container{
+}
+.container{
       border: 30px solid purple;
       background: yellow;
       font-family: Hurricane, cursive;
@@ -73,17 +73,40 @@
       flex-direction: column;
       flex-wrap: wrap;
       }
-    .elem:hover {
+.elem:hover {
         transform: scale(1.1);
-    }
-    .elem2:hover {
+}
+.elem2:hover {
         opacity: 0.5;
-    }
-    .elem3:hover {
+}
+.elem3:hover {
       display:flex;
       align-items:center;
       justify-content:center;
       height:100%;
       width:100%;
       overflow:hidden;
-    }    
+}
+label{
+  font-weight: bold;
+}
+fieldset {
+  border: none;
+  font-weight: bold;
+}
+fieldset input {
+  display: inline;
+}
+button, input, select, textarea {
+  font-size: 100%;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=text] {
+  padding:8px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
